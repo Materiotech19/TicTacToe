@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Materio Toe</string>
+    <string name="start">START</string>
+
+    <!--Sign In Page-->
+    <string name="sign_in">SIGNIN</string>
+    <string name="user_name">User Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="or">OR</string>
+
+
+    <!--Nav bar In Page-->
+    <string name="share">Share It</string>
+    <string name="game">Game</string>
+    <string name="account">My Account</string>
+
+    <!--Invite In Page-->
+    <string name="invitation_title">Materio Toe App</string>
+    <string name="invitation_message">I/ve been using the Materio Toe app and love it - you will too Try it </string>
+    <string name="invitation_cta">Install!</string>
+
+</resources>

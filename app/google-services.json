@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1043266134471",
+    "firebase_url": "https://materio-toe.firebaseio.com",
+    "project_id": "materio-toe",
+    "storage_bucket": "materio-toe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043266134471:android:93699190049b70a3",
+        "android_client_info": {
+          "package_name": "com.materiotech.rajkumarnalluchamy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043266134471-cokhi9stpsj5qdhspnus5jjgukgqoigp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.materiotech.rajkumarnalluchamy",
+            "certificate_hash": "5a3eb76afb2c389ed2da57626ef0aa3369d7b7d5"
+          }
+        },
+        {
+          "client_id": "1043266134471-i4cnbsrl4d9omk6bea0un2kt2s9707fo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwPhl7rgEg1vjWgKiImEFlccrJWUzs2lw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043266134471-i4cnbsrl4d9omk6bea0un2kt2s9707fo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

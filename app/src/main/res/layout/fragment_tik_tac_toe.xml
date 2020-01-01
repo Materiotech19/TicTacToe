@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/tikTakToeLayout"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="@dimen/dp70"
+                    android:layout_height="@dimen/dp70"
+                    android:id="@+id/imageView1"/>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="@dimen/dp3"
+                    android:layout_height="@dimen/dp70"
+                    android:background="@color/colorAccent"/>
+
+            <ImageView
+                    android:layout_width="@dimen/dp70"
+                    android:layout_height="@dimen/dp70"
+                    android:id="@+id/imageView2"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="@dimen/dp3"
+                    android:layout_height="@dimen/dp70"
+                    android:background="@color/colorAccent"/>
+            <ImageView
+                    android:layout_width="@dimen/dp70"
+                    android:layout_height="@dimen/dp70"
+                    android:id="@+id/imageView3"/>
+        </TableRow>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp3"
+                android:background="@color/colorAccent"/>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="@dimen/dp70"
+                    android:layout_height="@dimen/dp70"
+                    android:id="@+id/imageView4"/>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="@dimen/dp3"
+                    android:layout_height="@dimen/dp70"
+                    android:background="@color/colorAccent"/>
+
+            <ImageView
+                    android:layout_width="@dimen/dp70"
+                    android:layout_height="@dimen/dp70"
+                    android:id="@+id/imageView5"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="@dimen/dp3"
+                    android:layout_height="@dimen/dp70"
+                    android:background="@color/colorAccent"/>
+            <ImageView
+                    android:layout_width="@dimen/dp70"
+                    android:layout_height="@dimen/dp70"
+                    android:id="@+id/imageView6"/>
+        </TableRow>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp3"
+                android:background="@color/colorAccent"/>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="@dimen/dp70"
+                    android:layout_height="@dimen/dp70"
+                    android:id="@+id/imageView7"/>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="@dimen/dp3"
+                    android:layout_height="@dimen/dp70"
+                    android:background="@color/colorAccent"/>
+
+            <ImageView
+                    android:layout_width="@dimen/dp70"
+                    android:layout_height="@dimen/dp70"
+                    android:id="@+id/imageView8"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="@dimen/dp3"
+                    android:layout_height="@dimen/dp70"
+                    android:background="@color/colorAccent"/>
+            <ImageView
+                    android:layout_width="@dimen/dp70"
+                    android:layout_height="@dimen/dp70"
+                    android:id="@+id/imageView9"/>
+        </TableRow>
+    </LinearLayout>
+    <Button
+            android:text="@string/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/startButton"
+            android:textColor="@color/buttonText"
+            android:background="@color/colorAccent"
+    android:layout_margin="@dimen/dp20"/>
+</RelativeLayout>
